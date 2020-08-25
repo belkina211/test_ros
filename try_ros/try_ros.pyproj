@@ -1,0 +1,492 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>34b23d8d-8567-4062-9625-723313dd5e04</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>start.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>try_ros</Name>
+    <RootNamespace>try_ros</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.8</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="adding_action_target_costFree_end_month_77.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="adding_action_target_costFree_month_of_effect_76.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="adding_events_report_download_pdf_80.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="adding_events_report_download_xlsx_78.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="adding_events_report_download_xls_79.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="adding_event_not_target_end_month_75.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="adding_not_targer_event_change_of_effect_date_in_card_84.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="adding_not_targer_event_change_of_ending_date_in_card_85.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="adding_targer_costFree_event_change_of_effect_date_in_card_86.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="adding_targer_costFree_event_change_of_ending_date_in_card_87.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="adding_targer_event_change_of_effect_date_in_card_82.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="adding_targer_event_change_of_ending_date_in_card_83.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="adding_targer_event_change_of_financing_date_in_card_81.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="adding_target_event_ending_month_73.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="adding_target_event_month_of_effect_72.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="adding_target_event_month_of_start_of_financing_71.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="addong_not_target_event_month_of_effect_74.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bulk_return_to_work_adding_events_69.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bulk_return_to_work_for_review_adding_events_70.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bulk_return_to_work_planned_events_25.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bulk_return_to_work_for_review_planned_events_26.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bulk_sending_for_approval_from_the_correct_draft_planned_events_22.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bulk_sending_for_approval_from_the_correct_work_adding_events_67.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bulk_sending_for_approval_from_the_wrong_work_adding_events_66.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bulk_sending_for_approval_from_the_wrong_draft_planned_events_21.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bulk_sending_for_approval_from_work_planned_events_23.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bulk_sending_for_review_adding_events_68.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bulk_sending_for_review_planned_events_24.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="classifier_unmark_98.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="create_adding_event_min_date_88.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="create_event_max_date_53.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="delete_additional_event_55.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events_on_approbation_approbate_admin_147.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events_on_approbation_conform_admin_148.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events_on_approbation_retun_to_work_admin_149.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="formed_program_agreed_activities_99.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="formed_program_report_download_pdf_104.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="formed_program_agreed_activities_and_pass_effectiveness_control_101.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="formed_program_pass_effectiveness_control_100.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="formed_program_report_download_xlsx_102.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="formed_program_report_download_xls_103.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impact_on_ure_monitoring_142.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impact_on_ure_monitoring_download_pdf_145.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impact_on_ure_monitoring_download_xlsx_143.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impact_on_ure_monitoring_download_xls_144.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impact_on_ure_program_5_years_122.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="macroeconomic_indicators_118.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="macroeconomic_indicators_downolad_pdf_121.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="macroeconomic_indicators_downolad_xlsx_119.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="macroeconomic_indicators_downolad_xls_120.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="minenerg_forms_app_2_106.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="minenerg_forms_app_2_downalod_pdf_109.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="minenerg_forms_app_2_downalod_xlsx_107.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="minenerg_forms_app_2_downalod_xls_108.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="minenerg_forms_app_3_110.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="minenerg_forms_app_3_downalod_pdf_113.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="minenerg_forms_app_3_downalod_xlsx_111.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="minenerg_forms_app_3_downalod_xls_112.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="minenerg_forms_app_6_downalod_pdf_117.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="minenerg_forms_app_6_downalod_xls_116.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="minenerg_forms_app_6_114.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="minenerg_forms_app_6_downalod_xlsx_115.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="performance_standards_146.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_not_targer_event_change_of_ending_date_in_card_47.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="not_targer_event_change_of_effect_date_another_year_in_card_48.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_not_targer_event_change_of_effect_date_in_card_46.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="program_5_years_agreement_105.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="program_monitoring_agreement_137.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="report_plan_fact_month_download_pdf_136.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="report_plan_fact_month_download_xlsx_134.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="report_plan_fact_month_download_xls_135.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="report_plan_fact_month_summation_129.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="report_plan_fact_month_without_summation_130.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="report_plan_fact_year_download_pdf_133.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="report_plan_fact_year_download_xlsx_131.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="report_plan_fact_year_download_xls_132.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="report_plan_fact_year_summation_127.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="report_plan_fact_year_without_summation_128.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="return_of_adding_event_from_work_to_approval_58.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="return_of_adding_event_from_work_to_review_59.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_adding_events_for_review_57.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_adding_event_for_approval_without_month_62.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_adding_event_for_approval_without_saving_data_63.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_adding_event_for_approval_without_ure_parameter_61.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_adding_event_for_approval_with_ure_ngdo_64.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_adding_event_for_approval_with_ure_without_saving_ngdo_65.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_additional_event_for_approval_56.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_adding_event_from_work_to_stop_60.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_approval_event_for_review_from_events_at_approval_91.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_approval_event_for_work_from_events_at_approval_92.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_planned_draft_event_for_approval_from_events_at_work_89.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_planned_work_event_for_approval_from_events_at_work_90.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="targer_costFree_event_change_of_effect_date_anther_year_in_card_51.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_targer_costFree_event_change_of_effect_date_in_card_49.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_targer_costFree_event_change_of_ending_date_in_card_50.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_targer_event_change_of_effect_date_in_card_42.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_targer_event_change_of_effect_date_in_card_another_year_45.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_targer_event_change_of_ending_date_in_card_43.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_targer_event_change_of_financing_date_in_card_41.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="correct_entry_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="delete_planned_event_10.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="distribution_of_rights_en_5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="distribution_of_rights_ip_8.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="distribution_of_rights_kg_7.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="distribution_of_rights_ruk_6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_events_report_download_pdf_40.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_events_report_download_xlsx_38.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_events_report_download_xls_39.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_action_target_costFree_end_month_36.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_action_target_costFree_month_of_effect_35.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_event_not_target_change_of_the_year_34.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_event_not_target_end_month_33.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_event_target_costFree_another_year_37.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_not_target_event_month_of_effect_32.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_target_event_ending_month_29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_target_event_month_of_effect_28.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_target_event_month_of_effect_another_year_31.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_target_event_month_of_start_of_financing_another_year_30.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_target_event_month_of_start_of_financing_27.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="return_of_planned_event_from_work_to_approval_13.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="example.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="exit_3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="create_planned_event_9.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="no_exit_4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="return_of_planned_event_from_work_to_review_14.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_planned_events_for_review_12.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_planned_event_for_approval_with_ure_ngdo_19.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_planned_event_for_approval_11.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_planned_event_for_approval_without_effectiveness_18.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_planned_event_for_approval_without_ure_parameter_17.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_planned_event_for_approval_with_ure_without_saving_ngdo_20.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_planned_event_from_work_to_approval_16.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sending_planned_event_from_work_to_draft_15.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="start.py" />
+    <Compile Include="incorrect_entry_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="planned_targer_event_change_of_financing_date_in_card_another_year_44.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="create_planned_event_min_date_52.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="create_additional_event_54.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tariff_5_years_change_93.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tariff_5_years_copy_from_another_program_97.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tariff_5_years_report_download_pdf_96.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tariff_5_years_report_download_xlsx_94.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tariff_5_years_report_download_xls_95.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tariff_monitiring_report_download_pdf_126.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tariff_monitiring_report_download_xlsx_124.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tariff_monitiring_report_download_xls_125.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tariff_monitoring_change_123.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="try.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="vault_138.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="vault_download_pdf_141.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="vault_download_xlsx_139.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="vault_download_xls_140.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.8" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
